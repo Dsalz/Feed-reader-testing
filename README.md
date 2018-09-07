@@ -1,5 +1,5 @@
 # Feed-reader-testing
 
-- No build tool used so no dependencies
+- Dependencies : Handlebars.js , Jquery and Google Roboto Font load via CDNs
 
 - Project is hosted here http://damola.cf/Feed-reader-testing/
