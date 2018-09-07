@@ -4,7 +4,7 @@
 
 - Project is hosted here http://damola.cf/Feed-reader-testing/
 
-- Download and open __*index.html*__ to run locally
+- Download repository and open __*index.html*__ to run locally
 
 - Testing done with the jasmine framework and results are at the bottom of the page
 
