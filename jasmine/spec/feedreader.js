@@ -156,25 +156,17 @@ $(function () {
                 
                 oldFeed = $('.feed').html(); // getting feed added to the page from the loadFeed function called above
 
-                done();
+                loadFeed( Math.ceil(Math.random() * 3) , () =>{ // loading feed from the objects at index[1 - 3] of the allFeeds array to compare 
+                
+                    done();
+                
+                });
             
             });
 
         })
 
-        beforeEach(function(done){
-            
-            
-            loadFeed( Math.ceil(Math.random() * 3) , () =>{ // loading feed from the objects at index[1 - 3] of the allFeeds array to compare 
-                
-                done();
-            
-            });
-
-        }) 
-        
-        // feel like there is a better way to do this test than using 'beforeEach' twice. Would love to know what you think would have been better ( also checking if anyone reads these comments :) )
-
+       
         it('should load new feed', function(done){
                 
             let newFeed = $('.feed').html(); // getting new feed
